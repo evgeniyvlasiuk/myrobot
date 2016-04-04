@@ -1,0 +1,12 @@
+img {
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.pole{
+    border: 5px solid #382005;
+    width: 760px;
+    height: 560px;
+    margin: auto;
+    background: #C1FF8E;  
+}
