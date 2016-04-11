@@ -1,0 +1,80 @@
+body{
+    background: url(/assets/4.jpg);
+
+}
+
+.nav{
+text-align: center;
+    margin-bottom: 30px;
+    height: 60px;
+    line-height: 60px;
+    color: #261204;
+    padding-right: 20px;
+    font-style:italic;
+    font-size: 18px;
+    }
+    
+.nav input{
+	width: 30px;
+	height: 30px; 
+}
+button{
+    height: 30px;
+}
+.logo{
+   
+    font-style:italic;
+ height: 60px;
+ line-height: 60px;
+ text-align: center;
+    font-size: 24px;
+    color: #261204;
+}
+
+.content{
+   margin-bottom: 20px;
+ 
+}
+#pole{
+    border: 5px solid #382005;
+    width: 206px;
+    height: 246px;
+    background: #C1FF8C; 
+    background:linear-gradient(#000, transparent 1px), linear-gradient(90deg,#000, transparent 1px);
+    background-size: 40px 40px;
+    border: 3px solid #25BC2A;
+    margin: auto;
+}
+#bob {
+    
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.foot{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+
+    background: #C9A460;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    color: #3F1606;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+-------------------------------------------moby-------
+@media screen and (max-width: 767px){
+    .foot{
+        height: 25px;
+        line-height: 25px;
+    }
+}
+
+
